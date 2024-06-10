@@ -1,0 +1,21 @@
+{
+  "id": "341a8e5d-29c5-4e08-a44e-6057473dd489",
+  "version": "2.0",
+  "name": "webequipo-test",
+  "url": "https://hmis-web2.azurewebsites.net/",
+  "tests": [{
+    "id": "0587048d-6b56-4303-9f26-657c3088fc48",
+    "name": "Untitled",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "8d87cf2b-fc5c-4697-ad98-a7d3ac938047",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0587048d-6b56-4303-9f26-657c3088fc48"]
+  }],
+  "urls": [],
+  "plugins": []
+}
