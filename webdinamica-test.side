@@ -1,0 +1,184 @@
+{
+  "id": "e388243d-290c-4a97-a340-2e1ec74d2ba2",
+  "version": "2.0",
+  "name": "webdinamica-test",
+  "url": "https://my-app-1718049484356.azurewebsites.net",
+  "tests": [{
+    "id": "b8a1fce6-8585-42e2-ae72-41ed13514380",
+    "name": "testLoginIncorrecto",
+    "commands": [{
+      "id": "71060d1e-8379-4ea5-baba-91a8e055afc8",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a295dab8-05d9-4763-a1ad-c61da8d30f24",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1072x1460",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fd73745-a381-4a3c-a251-a35c1f71b878",
+      "comment": "",
+      "command": "click",
+      "target": "id=vaadinLoginOverlayWrapper",
+      "targets": [
+        ["id=vaadinLoginOverlayWrapper", "id"],
+        ["css=#vaadinLoginOverlayWrapper", "css:finder"],
+        ["xpath=//vaadin-login-overlay-wrapper[@id='vaadinLoginOverlayWrapper']", "xpath:attributes"],
+        ["xpath=//vaadin-login-overlay-wrapper", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7720ab1-252d-496e-b233-794ab9874cf2",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-vaadin-text-field-6",
+      "targets": [],
+      "value": "user"
+    }, {
+      "id": "5f80e09a-6f30-4c55-865b-0af8a9c4cbc6",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-vaadin-password-field-7",
+      "targets": [
+        ["id=input-vaadin-password-field-7", "id"],
+        ["css=#input-vaadin-password-field-7", "css:finder"],
+        ["xpath=//input[@id='input-vaadin-password-field-7']", "xpath:attributes"],
+        ["xpath=//vaadin-password-field[@id='vaadinLoginPassword']/input", "xpath:idRelative"],
+        ["xpath=//vaadin-password-field/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d2c825f-b39f-49ec-acf0-55c52d71fd23",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-vaadin-password-field-7",
+      "targets": [],
+      "value": "pass"
+    }, {
+      "id": "e6f5a54c-c7c2-4839-a2e0-f86ad4fb2a4d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0191d899-506b-4157-ad82-363296b7a554",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=vaadinLoginFormWrapper",
+      "targets": [
+        ["id=vaadinLoginFormWrapper", "id"],
+        ["css=#vaadinLoginFormWrapper", "css:finder"],
+        ["xpath=//vaadin-login-form-wrapper[@id='vaadinLoginFormWrapper']", "xpath:attributes"],
+        ["xpath=//vaadin-login-form[@id='vaadinLoginForm']/vaadin-login-form-wrapper", "xpath:idRelative"],
+        ["xpath=//vaadin-login-form-wrapper", "xpath:position"]
+      ],
+      "value": "Log in\\nIncorrect username or password\\nCheck that you have entered the correct username and password and try again.\\nUsername\\nUsername is required\\nPassword\\nLog in"
+    }]
+  }, {
+    "id": "83d73fc6-b656-41b1-9a4a-a52c29327f60",
+    "name": "testLoginCorrecto",
+    "commands": [{
+      "id": "212d3fda-394e-4701-bb52-f48168649ec6",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d13a5c24-7007-4d8d-b284-61545e2dbad4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1084x1482",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dfde885-6354-424b-883f-a303321502f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-vaadin-text-field-6",
+      "targets": [
+        ["id=input-vaadin-text-field-6", "id"],
+        ["css=#input-vaadin-text-field-6", "css:finder"],
+        ["xpath=//input[@id='input-vaadin-text-field-6']", "xpath:attributes"],
+        ["xpath=//vaadin-text-field[@id='vaadinLoginUsername']/input", "xpath:idRelative"],
+        ["xpath=//vaadin-text-field/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a689f16-533a-4e1c-bc4b-f7c84bee1453",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-vaadin-text-field-6",
+      "targets": [],
+      "value": "user"
+    }, {
+      "id": "78ad6dfb-557d-4b08-877f-042e68c01437",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-vaadin-password-field-7",
+      "targets": [],
+      "value": "user"
+    }, {
+      "id": "abb1f738-3295-485f-8607-33087d44234f",
+      "comment": "",
+      "command": "click",
+      "target": "css=vaadin-button:nth-child(2)",
+      "targets": [
+        ["css=vaadin-button:nth-child(2)", "css:finder"],
+        ["xpath=//vaadin-login-form-wrapper[@id='vaadinLoginFormWrapper']/vaadin-button", "xpath:idRelative"],
+        ["xpath=//vaadin-button", "xpath:position"],
+        ["xpath=//vaadin-button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5126aee-4f9f-47c7-88c2-e2b2a99a581d",
+      "comment": "",
+      "command": "click",
+      "target": "css=vaadin-app-layout",
+      "targets": [
+        ["css=vaadin-app-layout", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout", "xpath:idRelative"],
+        ["xpath=//vaadin-app-layout", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc386bb4-cc94-4bd8-80a5-c08fc8c29689",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=vaadin-menu-bar-item > div",
+      "targets": [
+        ["css=vaadin-menu-bar-item > div", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/footer/vaadin-menu-bar/vaadin-menu-bar-button/vaadin-menu-bar-item/div", "xpath:idRelative"],
+        ["xpath=//vaadin-menu-bar-item/div", "xpath:position"]
+      ],
+      "value": "John Normal"
+    }, {
+      "id": "dc013cc7-345b-4dda-91e0-186ab3f54fb5",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Master-Detail",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5d253358-37ef-4c17-b141-211750c6d4dd",
+    "name": "testContenido",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "a00696d4-b008-4fb0-b5fd-3bbab5aa070a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b8a1fce6-8585-42e2-ae72-41ed13514380"]
+  }],
+  "urls": ["https://my-app-1718049484356.azurewebsites.net/"],
+  "plugins": []
+}
