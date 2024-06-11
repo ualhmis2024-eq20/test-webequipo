@@ -14,13 +14,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "a295dab8-05d9-4763-a1ad-c61da8d30f24",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1072x1460",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "2fd73745-a381-4a3c-a251-a35c1f71b878",
       "comment": "",
       "command": "click",
@@ -88,13 +81,6 @@
       "comment": "",
       "command": "open",
       "target": "/login",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "d13a5c24-7007-4d8d-b284-61545e2dbad4",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1084x1482",
       "targets": [],
       "value": ""
     }, {
@@ -168,8 +154,423 @@
     }]
   }, {
     "id": "5d253358-37ef-4c17-b141-211750c6d4dd",
-    "name": "testContenido",
-    "commands": []
+    "name": "testNuevaEntrada",
+    "commands": [{
+      "id": "f92e74dc-e01b-4384-9b7d-20fb0fc2a97e",
+      "comment": "",
+      "command": "open",
+      "target": "/?continue",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10aaf818-e1d1-4a12-9c2b-ef3a20da5283",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1227x841",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e81bdf6b-c574-4549-ac51-177d7c9fbf92",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=vaadin-grid-cell-content:nth-child(21)",
+      "targets": [
+        ["css=vaadin-grid-cell-content:nth-child(21)", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div/vaadin-grid/vaadin-grid-cell-content[16]", "xpath:idRelative"],
+        ["xpath=//vaadin-grid-cell-content[16]", "xpath:position"],
+        ["xpath=//vaadin-grid-cell-content[contains(.,'1395 Jigror Park')]", "xpath:innerText"]
+      ],
+      "value": "1395 Jigror Park"
+    }, {
+      "id": "233f0a17-29ea-49a3-a40b-2f5560bf6a57",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "id=input-vaadin-text-field-16",
+      "targets": [
+        ["id=input-vaadin-text-field-16", "id"],
+        ["css=#input-vaadin-text-field-16", "css:finder"],
+        ["xpath=//input[@id='input-vaadin-text-field-16']", "xpath:attributes"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div[2]/div/vaadin-form-layout/vaadin-text-field/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f64822ca-fefc-4f28-9c87-49124ee34689",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-vaadin-text-field-16",
+      "targets": [
+        ["id=input-vaadin-text-field-16", "id"],
+        ["css=#input-vaadin-text-field-16", "css:finder"],
+        ["xpath=//input[@id='input-vaadin-text-field-16']", "xpath:attributes"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div[2]/div/vaadin-form-layout/vaadin-text-field/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "403a2beb-e8e6-4d59-8dcc-71e07130cfb6",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "id=input-vaadin-text-field-18",
+      "targets": [
+        ["id=input-vaadin-text-field-18", "id"],
+        ["css=#input-vaadin-text-field-18", "css:finder"],
+        ["xpath=//input[@id='input-vaadin-text-field-18']", "xpath:attributes"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div[2]/div/vaadin-form-layout/vaadin-text-field[3]/input", "xpath:idRelative"],
+        ["xpath=//vaadin-text-field[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8628cc5e-4fb7-45dd-9c25-9424d74e4789",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=vaadin-button:nth-child(1)",
+      "targets": [
+        ["css=vaadin-button:nth-child(1)", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div[2]/vaadin-horizontal-layout/vaadin-button", "xpath:idRelative"],
+        ["xpath=//vaadin-button", "xpath:position"],
+        ["xpath=//vaadin-button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae311711-f39b-4204-afe9-cad750fe1906",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-vaadin-text-field-18",
+      "targets": [
+        ["id=input-vaadin-text-field-18", "id"],
+        ["css=#input-vaadin-text-field-18", "css:finder"],
+        ["xpath=//input[@id='input-vaadin-text-field-18']", "xpath:attributes"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div[2]/div/vaadin-form-layout/vaadin-text-field[3]/input", "xpath:idRelative"],
+        ["xpath=//vaadin-text-field[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faedf22b-6f55-4d94-a945-d2a9fd4f7b77",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-vaadin-text-field-16",
+      "targets": [],
+      "value": "street"
+    }, {
+      "id": "f28368f8-aee5-4489-9c85-a6f61f845a0b",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-vaadin-text-field-18",
+      "targets": [],
+      "value": "city"
+    }, {
+      "id": "9640859d-ebb7-4f20-9196-19c7f0d1905c",
+      "comment": "",
+      "command": "click",
+      "target": "css=vaadin-button:nth-child(1)",
+      "targets": [
+        ["css=vaadin-button:nth-child(1)", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div[2]/vaadin-horizontal-layout/vaadin-button", "xpath:idRelative"],
+        ["xpath=//vaadin-button", "xpath:position"],
+        ["xpath=//vaadin-button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00cf925d-5a4d-4493-a1c4-5f1370f0232d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=vaadin-notification-card",
+      "targets": [
+        ["css=vaadin-notification-card", "css:finder"],
+        ["xpath=//vaadin-notification-card", "xpath:position"],
+        ["xpath=//vaadin-notification-card[contains(.,'Data updated')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c79022dc-95d8-4e1d-aedd-cf8e2faa6e3a",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=vaadin-grid",
+      "targets": [
+        ["css=vaadin-grid", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div/vaadin-grid", "xpath:idRelative"],
+        ["xpath=//vaadin-grid", "xpath:position"]
+      ],
+      "value": "641,680"
+    }, {
+      "id": "2834481a-9d1e-4165-9773-4ca6852ad0a7",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=vaadin-grid",
+      "targets": [
+        ["css=vaadin-grid", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div/vaadin-grid", "xpath:idRelative"],
+        ["xpath=//vaadin-grid", "xpath:position"]
+      ],
+      "value": "641,680"
+    }, {
+      "id": "7aa8080e-586a-42b4-8d3c-e184b96de197",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=vaadin-grid",
+      "targets": [
+        ["css=vaadin-grid", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div/vaadin-grid", "xpath:idRelative"],
+        ["xpath=//vaadin-grid", "xpath:position"]
+      ],
+      "value": "641,680"
+    }, {
+      "id": "61dd05ae-ebf3-4844-aa01-4bf32bf3a753",
+      "comment": "",
+      "command": "click",
+      "target": "css=vaadin-scroller",
+      "targets": [
+        ["css=vaadin-scroller", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/vaadin-scroller", "xpath:idRelative"],
+        ["xpath=//vaadin-scroller", "xpath:position"],
+        ["xpath=//vaadin-scroller[contains(.,'Master-Detail')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bc4a709e-78e8-48f6-acd7-600a01d5b251",
+    "name": "testVerModificarEntrada",
+    "commands": [{
+      "id": "ab48b4fe-4829-4fd8-a44e-d85a517ca600",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da934a9b-573b-4646-8708-ca23649d9ad5",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=input-vaadin-text-field-16",
+      "targets": [
+        ["id=input-vaadin-text-field-16", "id"],
+        ["css=#input-vaadin-text-field-16", "css:finder"],
+        ["xpath=//input[@id='input-vaadin-text-field-16']", "xpath:attributes"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div[2]/div/vaadin-form-layout/vaadin-text-field/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f00b03e5-a5f5-4b49-a21a-588428f7a3f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=vaadin-grid-cell-content:nth-child(21)",
+      "targets": [
+        ["css=vaadin-grid-cell-content:nth-child(21)", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div/vaadin-grid/vaadin-grid-cell-content[16]", "xpath:idRelative"],
+        ["xpath=//vaadin-grid-cell-content[16]", "xpath:position"],
+        ["xpath=//vaadin-grid-cell-content[contains(.,'1395 Jigror Park')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff6bc19a-3b73-4d1e-a76c-46c57f2d23ca",
+      "comment": "",
+      "command": "waitForText",
+      "target": "css=vaadin-grid-cell-content:nth-child(6) > vaadin-grid-sorter",
+      "targets": [
+        ["css=vaadin-grid-cell-content:nth-child(6) > vaadin-grid-sorter", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div/vaadin-grid/vaadin-grid-cell-content/vaadin-grid-sorter", "xpath:idRelative"],
+        ["xpath=//vaadin-grid-sorter", "xpath:position"],
+        ["xpath=//vaadin-grid-sorter[contains(.,'Street')]", "xpath:innerText"]
+      ],
+      "value": "Street"
+    }, {
+      "id": "9b6dfd47-2cf2-4f0d-85ce-f69a4d1f29cd",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=input-vaadin-text-field-16",
+      "targets": [
+        ["id=input-vaadin-text-field-16", "id"],
+        ["css=#input-vaadin-text-field-16", "css:finder"],
+        ["xpath=//input[@id='input-vaadin-text-field-16']", "xpath:attributes"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div[2]/div/vaadin-form-layout/vaadin-text-field/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1395 Jigror Park"
+    }, {
+      "id": "0546c6d0-87ae-45ef-b998-1072d0c04372",
+      "comment": "",
+      "command": "click",
+      "target": "css=vaadin-grid-cell-content:nth-child(63)",
+      "targets": [
+        ["css=vaadin-grid-cell-content:nth-child(63)", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div/vaadin-grid/vaadin-grid-cell-content[58]", "xpath:idRelative"],
+        ["xpath=//vaadin-grid-cell-content[58]", "xpath:position"],
+        ["xpath=//vaadin-grid-cell-content[contains(.,'Zudsova')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af88b5be-2701-4dbe-993a-24b6483afe2a",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=input-vaadin-text-field-18",
+      "targets": [
+        ["id=input-vaadin-text-field-18", "id"],
+        ["css=#input-vaadin-text-field-18", "css:finder"],
+        ["xpath=//input[@id='input-vaadin-text-field-18']", "xpath:attributes"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div[2]/div/vaadin-form-layout/vaadin-text-field[3]/input", "xpath:idRelative"],
+        ["xpath=//vaadin-text-field[3]/input", "xpath:position"]
+      ],
+      "value": "Zudsova"
+    }, {
+      "id": "282683f0-e976-42cc-8d41-3a05d454b396",
+      "comment": "",
+      "command": "click",
+      "target": "css=.editor",
+      "targets": [
+        ["css=.editor", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7067c799-c779-448b-a8bc-c16ac83e2eea",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-vaadin-text-field-18",
+      "targets": [
+        ["id=input-vaadin-text-field-18", "id"],
+        ["css=#input-vaadin-text-field-18", "css:finder"],
+        ["xpath=//input[@id='input-vaadin-text-field-18']", "xpath:attributes"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div[2]/div/vaadin-form-layout/vaadin-text-field[3]/input", "xpath:idRelative"],
+        ["xpath=//vaadin-text-field[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bda9640-2755-418b-aee0-bfc2d90945c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-vaadin-text-field-18",
+      "targets": [],
+      "value": "Almería"
+    }, {
+      "id": "baad18d2-a745-4347-a2e6-70ac79aa2646",
+      "comment": "",
+      "command": "click",
+      "target": "css=vaadin-button:nth-child(1)",
+      "targets": [
+        ["css=vaadin-button:nth-child(1)", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div[2]/vaadin-horizontal-layout/vaadin-button", "xpath:idRelative"],
+        ["xpath=//vaadin-button", "xpath:position"],
+        ["xpath=//vaadin-button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa163f1e-77d6-420a-9c41-8e1dc37db9a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=vaadin-grid-cell-content:nth-child(61)",
+      "targets": [
+        ["css=vaadin-grid-cell-content:nth-child(61)", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div/vaadin-grid/vaadin-grid-cell-content[56]", "xpath:idRelative"],
+        ["xpath=//vaadin-grid-cell-content[56]", "xpath:position"],
+        ["xpath=//vaadin-grid-cell-content[contains(.,'1302 Odeter Circle')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dc18164-0634-4bf8-b4b0-ebe6c60d5e4a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=vaadin-grid-cell-content:nth-child(63)",
+      "targets": [
+        ["css=vaadin-grid-cell-content:nth-child(63)", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/div/vaadin-split-layout/div/vaadin-grid/vaadin-grid-cell-content[58]", "xpath:idRelative"],
+        ["xpath=//vaadin-grid-cell-content[58]", "xpath:position"],
+        ["xpath=//vaadin-grid-cell-content[contains(.,'Almería')]", "xpath:innerText"]
+      ],
+      "value": "Almería"
+    }]
+  }, {
+    "id": "2a5b372d-0f8a-474a-9059-9223ccceabc2",
+    "name": "testLogout",
+    "commands": [{
+      "id": "9e17c1ce-79ef-40dd-bc5a-4de329122050",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99b0b3e1-a63a-498d-8f3c-f120b7ea2ce0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1227x841",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e856ae47-27f0-4e53-83be-415d94de7291",
+      "comment": "",
+      "command": "waitForText",
+      "target": "css=.m-0",
+      "targets": [
+        ["css=.m-0", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Master-Detail')]", "xpath:innerText"]
+      ],
+      "value": "Master-Detail"
+    }, {
+      "id": "f34ae0fd-a3ba-4ad9-9e55-01edcec3ebed",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Master-Detail",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "567b6b4b-cd80-414a-ba40-4f16c6bc9b38",
+      "comment": "",
+      "command": "click",
+      "target": "css=vaadin-menu-bar-item > div",
+      "targets": [
+        ["css=vaadin-menu-bar-item > div", "css:finder"],
+        ["xpath=//flow-container-root-2521314[@id='ROOT-2521314']/vaadin-app-layout/footer/vaadin-menu-bar/vaadin-menu-bar-button/vaadin-menu-bar-item/div", "xpath:idRelative"],
+        ["xpath=//vaadin-menu-bar-item/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "699b2aca-ecab-457a-a4da-7c51caae00e9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=vaadin-menu-bar-list-box > vaadin-menu-bar-item",
+      "targets": [
+        ["css=vaadin-menu-bar-list-box > vaadin-menu-bar-item", "css:finder"],
+        ["xpath=//vaadin-menu-bar-list-box/vaadin-menu-bar-item", "xpath:position"],
+        ["xpath=//vaadin-menu-bar-item[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": "Sign out"
+    }, {
+      "id": "3e463b83-7ddc-408e-acb5-ff7f2cbd2934",
+      "comment": "",
+      "command": "click",
+      "target": "css=vaadin-menu-bar-list-box > vaadin-menu-bar-item",
+      "targets": [
+        ["css=vaadin-menu-bar-list-box > vaadin-menu-bar-item", "css:finder"],
+        ["xpath=//vaadin-menu-bar-list-box/vaadin-menu-bar-item", "xpath:position"],
+        ["xpath=//vaadin-menu-bar-item[contains(.,'Sign out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09ea6cae-6633-4b41-bc5b-36f333815d47",
+      "comment": "",
+      "command": "click",
+      "target": "id=vaadinLoginFormWrapper",
+      "targets": [
+        ["id=vaadinLoginFormWrapper", "id"],
+        ["css=#vaadinLoginFormWrapper", "css:finder"],
+        ["xpath=//vaadin-login-form-wrapper[@id='vaadinLoginFormWrapper']", "xpath:attributes"],
+        ["xpath=//vaadin-login-form[@id='vaadinLoginForm']/vaadin-login-form-wrapper", "xpath:idRelative"],
+        ["xpath=//vaadin-login-form-wrapper", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03c90a88-901d-462a-a9a5-c355a0e5e8b3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=vaadinLoginFormWrapper",
+      "targets": [],
+      "value": "Log in\\nUsername\\nUsername is required\\nPassword\\nLog in"
+    }]
   }],
   "suites": [{
     "id": "a00696d4-b008-4fb0-b5fd-3bbab5aa070a",

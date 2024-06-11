@@ -14,13 +14,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "42ef6b4d-db2d-43f2-a5fb-3930c0f9a8f3",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1528x1460",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "1eee7100-b2b1-4646-9cea-9ac238e0cc48",
       "comment": "",
       "command": "assertText",
@@ -117,13 +110,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "999c4d12-0aa7-419c-b43e-ed26c5e6746c",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1072x1460",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "28059415-2273-4df9-ad03-1c6a340e4135",
       "comment": "",
       "command": "mouseOver",
@@ -166,7 +152,7 @@
       "id": "bb46cb2d-eb87-422a-b688-62ee23e0166e",
       "comment": "",
       "command": "assertTitle",
-      "target": "ualhmis2024-eq20/web-equipo",
+      "target": "GitHub - ualhmis2024-eq20/web-equipo",
       "targets": [],
       "value": ""
     }, {
@@ -213,12 +199,12 @@
         ["css=.p-nickname", "css:finder"],
         ["xpath=//h1/span[2]", "xpath:position"]
       ],
-      "value": "vlcoo · he/him"
+      "value": "vlcoo"
     }, {
       "id": "8f311370-74f6-4b40-8166-e3249405406a",
       "comment": "",
       "command": "assertTitle",
-      "target": "Your Repositories",
+      "target": "vlcoo (vlcoo) / Repositories · GitHub",
       "targets": [],
       "value": ""
     }, {
